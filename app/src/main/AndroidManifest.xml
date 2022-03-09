@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hungerspot">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HungerSpot">
+        <activity android:name=".VolunteerProcessActivity"></activity>
+        <activity android:name=".DonorProcessActivity" />
+        <activity android:name=".VolunteerAccountViewerActivity" />
+        <activity android:name=".DonorAccountViewerActivity" />
+        <activity android:name=".ContentDetailVolunteerActivity" />
+
+<!--        <activity-->
+<!--            android:name=".VolunteerMainnActivity"-->
+<!--            android:label="@string/title_activity_volunteer_mainn"-->
+<!--            android:theme="@style/Theme.HungerSpot.NoActionBar" />-->
+<!--        <activity-->
+<!--            android:name=".VolunteerMainActivity"-->
+<!--            android:label="@string/title_activity_volunteer_main"-->
+<!--            android:theme="@style/Theme.HungerSpot.NoActionBar" />-->
+        <activity
+            android:name=".DonorMainActivity"
+            android:label="@string/title_activity_donor_main"
+            android:theme="@style/Theme.HungerSpot.NoActionBar" />
+<!--        <activity android:name=".VolunteerFoodDelivered" />-->
+<!--        <activity android:name=".VolunteerSendRequestActivity" />-->
+        <activity android:name=".VolunteerLoginActivity" />
+        <activity android:name=".VolunteerRegisterActivity" />
+<!--        <activity android:name=".DonorVolunteerBioActivity" />-->
+<!--        <activity android:name=".DonorRequestActivity" />-->
+<!--        <activity android:name=".DonorFoodUploadActivity" />-->
+        <activity android:name=".DonorLoginActivity" />
+        <activity android:name=".DonorRegisterActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.HungerSpot.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

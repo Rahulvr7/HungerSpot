@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "351833670242",
+    "project_id": "hungerspot-affe0",
+    "storage_bucket": "hungerspot-affe0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351833670242:android:f4b2f0f763df69c206c73b",
+        "android_client_info": {
+          "package_name": "com.example.hungerspot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351833670242-nqa7j3rslrove56f6mmqjf8uspk8eeph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1NDZcp6zcDurlnU0_d4uMdHTFbRiB0f8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351833670242-nqa7j3rslrove56f6mmqjf8uspk8eeph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

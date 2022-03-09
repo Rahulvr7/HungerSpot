@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navheadermainid"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="#A9FDDC"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/navpageaccountdpid"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/nav_header_desc"
+        android:maxWidth="125dp"
+        android:maxHeight="105dp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/navpageaccounternameid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="Account_Holder_Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#636363" />
+
+    <TextView
+        android:id="@+id/navpageaccountertypeid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account_Type"
+        android:textColor="#636363" />
+</LinearLayout>
